@@ -1,0 +1,231 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  list-style: none;
+}
+.bg-grey0 {
+  background: #f7f7f7;
+}
+.bg-grey1 {
+  background: #cac8c8;
+}
+
+#img-banner {
+  position: relative;
+  filter: brightness(70%);
+  display: flex;
+}
+#banner {
+  position: absolute;
+  top: 50px;
+  left: 1px;
+  right: 1px;
+  text-align: center;
+  color: #f7f7f7;
+}
+.nav-bar {
+  position: relative;
+}
+
+.me {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.myavatar {
+  border: 7px solid white;
+}
+
+.experience ul li::before {
+  content: "\2022";
+  color: rgb(45, 171, 250);
+  font-weight: bold;
+  font-size: 30px;
+  display: inline-flex;
+  width: 23px;
+  margin-left: -1em;
+}
+.education ul li::before {
+  content: "\2022";
+  color: rgb(45, 171, 250);
+  font-weight: bold;
+  font-size: 30px;
+  display: inline-block;
+  width: 23px;
+  margin-left: -1em;
+}
+.works ul li::before {
+  content: "\2022";
+  color: rgb(45, 171, 250);
+  font-weight: bold;
+  font-size: 30px;
+  display: inline-block;
+  width: 23px;
+  margin-left: -1em;
+}
+
+/* Icon of hobbys */
+.hobbys i {
+  border: 2px solid rgb(45, 171, 250);
+  border-radius: 50%;
+  padding: 15px;
+}
+.hobbys p {
+  text-align: center;
+}
+.hobbys {
+  justify-content: space-around;
+}
+
+/* Point level Language */
+#level-eng .point1 {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+#level-eng .point2 {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+#level-eng .point3 {
+  background: rgba(128, 128, 128, 0.4);
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+#level-jpl .point1 {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+#level-jpl .point2 {
+  background: rgba(128, 128, 128, 0.4);
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+#level-jpl .point3 {
+  background: rgba(128, 128, 128, 0.4);
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+/* Point level Skill */
+#level-htmlcss .point1 {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+#level-htmlcss .point2 {
+  background: rgba(128, 128, 128, 0.4);
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+#level-htmlcss .point3 {
+  background: rgba(128, 128, 128, 0.4);
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+#level-js .point1 {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+#level-js .point2 {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+#level-js .point3 {
+  background: rgba(128, 128, 128, 0.4);
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+#level-njs .point1 {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+#level-njs .point2 {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+#level-njs .point3 {
+  background: rgba(128, 128, 128, 0.4);
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+#level-bootstrap .point1 {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+#level-bootstrap .point2 {
+  background: rgba(128, 128, 128, 0.4);
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+#level-bootstrap .point3 {
+  background: rgba(128, 128, 128, 0.4);
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+.border-style {
+  border-left: 0.5px solid rgba(128, 128, 128, 0.4);
+  border-right: 0.5px solid rgba(128, 128, 128, 0.4);
+}
+
+.border-style-cer1 {
+  border-right: 1px solid #d6c08d;
+}
+.border-style-cer3 {
+  border-top: 1px solid #d6c08d;
+}
+
+.hidden {
+  display: none;
+}
