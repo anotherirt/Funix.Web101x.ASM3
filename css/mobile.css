@@ -1,0 +1,23 @@
+@media screen and (max-width: 600px) {
+  .mobile-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .border-style {
+    border-left: none;
+    border-right: none;
+  }
+  .border-style-cer1 {
+    border-right: none;
+    border-bottom: 1px solid red;
+  }
+  .border-style-cer2 {
+    border-bottom: 1px solid red;
+  }
+  .border-style-cer3 {
+    border-top: none;
+  }
+  .border-style-cer4 {
+    border-top: none;
+  }
+}
